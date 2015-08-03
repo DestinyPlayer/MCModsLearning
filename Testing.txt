@@ -1,2 +1,0 @@
-This file is just a test of Git's commit functionality.
-And again.
