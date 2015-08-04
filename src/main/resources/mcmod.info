@@ -2,15 +2,15 @@
 {
   "modid": "MCModsLearning",
   "name": "Minecraft Mods Learning",
-  "description": "Destiny's Player's "mod" for modding studies.",
+  "description": "Destiny Players mod for modding studies.",
   "version": "0.1",
   "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",
   "authorList": [
-    "pahimar"
+    "destinyplayer"
   ],
-  "credits": "Everybody who helped me on the way here!",
+  "credits": "Thanks to everybody who helped me on the way here!",
   "logoFile": "",
   "screenshots": [
   ],
