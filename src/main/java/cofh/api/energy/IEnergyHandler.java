@@ -40,7 +40,7 @@ public interface IEnergyHandler extends IEnergyProvider, IEnergyReceiver {
 	 * @return Amount of energy that was (or would have been, if simulated) extracted.
 	 */
 	@Override
-	int extractEnergy(ForgeDirect
+	int extractEnergy(ForgeDirect);
 					  /**
 					   * Returns the amount of ion from, int maxExtract, boolean simulate);
 
