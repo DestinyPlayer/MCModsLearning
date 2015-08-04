@@ -11,13 +11,13 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class MCModsLearning
 {
-    @Mod.Instance("MCModsLearning")
+    @Mod.Instance(Reference.MOD_ID)
     public static MCModsLearning instance;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        LogHelper.info("Pre Initialisation Started");
+        LogHelper.info("Pre Initialisation Start");
 
         LogHelper.info("Pre Initialisation Complete");
     }
@@ -25,7 +25,7 @@ public class MCModsLearning
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        LogHelper.info("Initialisation Started");
+        LogHelper.info("Initialisation Start");
 
         LogHelper.info("Initialisation Complete");
     }
@@ -33,7 +33,7 @@ public class MCModsLearning
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        LogHelper.info("Post Initialisation Started");
+        LogHelper.info("Post Initialisation Start");
 
         LogHelper.info("Post Initialisation Complete");
     }

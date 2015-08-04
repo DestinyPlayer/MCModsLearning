@@ -1,4 +1,4 @@
-package com.pahimar.letsmodreboot.utility;
+package com.destinyplayer.mcml.utility;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
